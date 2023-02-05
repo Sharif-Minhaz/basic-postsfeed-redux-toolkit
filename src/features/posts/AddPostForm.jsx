@@ -58,7 +58,12 @@ const AddPostForm = () => {
 					value={content}
 					onChange={onContentChanged}
 				/>
-				<button disabled={!canSave} onClick={onSavePostClicked} type="button">
+				<button
+					style={{ cursor: "pointer" }}
+					disabled={!canSave}
+					onClick={onSavePostClicked}
+					type="button"
+				>
 					Save Post
 				</button>
 			</form>
