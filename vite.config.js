@@ -7,5 +7,5 @@ export default defineConfig({
 	devOptions: {
 		errorOverlay: true,
 	},
-	server: { port: 3000 },
+	server: { port: 5000 },
 });
