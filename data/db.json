@@ -317,10 +317,18 @@
       "date": "2023-02-08T20:16:07.158Z"
     },
     {
-      "userId": 2,
       "id": 12,
-      "title": "in quibusdam tempore odit est dolorem",
-      "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio"
+      "title": "quibusdam tempore odit est dolorem",
+      "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio",
+      "userId": 4,
+      "reactions": {
+        "thumbsUp": 2,
+        "wow": 1,
+        "heart": 6,
+        "rocket": 0,
+        "coffee": 0
+      },
+      "date": "2023-02-08T20:47:06.606Z"
     },
     {
       "userId": 2,

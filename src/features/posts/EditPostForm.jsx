@@ -56,7 +56,7 @@ const EditPostForm = () => {
 	const onSavePostClicked = async () => {
 		if (canSave) {
 			try {
-				await updatePost({ id: post?.id, title, body: content, userId }).unwrap();
+				await updatePost({ id: post?.id, title, body: content, userId, reactions: post.reactions }).unwrap();
 
 				setTitle("");
 				setContent("");
